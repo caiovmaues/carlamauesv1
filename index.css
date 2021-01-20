@@ -1,0 +1,63 @@
+html,
+body,
+div,
+section,
+footer,
+header,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+video,
+li,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videoSection {
+    background-color: blueviolet;
+}
+
+.imagesSection {
+    background-color: pink;
+}
+
+.marketSection {
+    background-color: turquoise;
+}
