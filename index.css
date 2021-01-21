@@ -39,6 +39,7 @@ header {
 section {
     height: 100vh;
     width: 100%;
+    padding: 15px;
 }
 
 ul {
@@ -48,6 +49,14 @@ ul {
 .headerLinks {
     display: flex;
     justify-content: space-around;
+}
+
+li, .headerLinks {
+    padding: 5px;
+}
+
+.headerTitle {
+    padding: 10px;
 }
 
 .videoSection {
