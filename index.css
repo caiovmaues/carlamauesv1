@@ -18,6 +18,7 @@ ol {
     padding: 0;
     outline: none;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -34,12 +35,13 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #353535;
+    z-index: 9999;
 }
 
 section {
     height: 100vh;
     width: 100%;
-    padding: 15px;
 }
 
 ul {
@@ -60,13 +62,20 @@ li, .headerLinks {
 }
 
 .videoSection {
-    background-color: blueviolet;
+    background-color: black;
+}
+
+.videoSection video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .imagesSection {
-    background-color: pink;
+    background-color: #181111;
 }
 
 .marketSection {
-    background-color: turquoise;
+    background-color: #aa0c17;
 }
