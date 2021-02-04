@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap');
+
 html,
 body,
 div,
@@ -25,6 +27,7 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
+    font-family: 'Zilla Slab', serif;
 }
 
 header {
@@ -32,9 +35,11 @@ header {
     top: 0;
     left: 0; 
     width: 100%;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background-color: #353535;
     z-index: 9999;
 }
@@ -63,6 +68,7 @@ li, .headerLinks {
 
 .videoSection {
     background-color: black;
+    position: relative;
 }
 
 .videoSection video {
@@ -70,7 +76,25 @@ li, .headerLinks {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    object-fit: none;
 }
+
+.videoSection .videoButton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+    background-color: #aa0c17;
+    border-radius: 10px;
+    box-shadow: 0 10px 4px black;
+    padding: 24px;
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    font-size: 24px;
+    }
 
 .imagesSection {
     background-color: #181111;
