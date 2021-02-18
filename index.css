@@ -103,3 +103,17 @@ li, .headerLinks {
 .marketSection {
     background-color: #aa0c17;
 }
+
+.marketSection .itemList {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.marketSection .storeItem {
+    width: 80%;
+    flex-direction: row;
+}
